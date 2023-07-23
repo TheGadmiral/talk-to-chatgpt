@@ -17,8 +17,8 @@ def open_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as infile:
         return infile.read()
 
-api_key = open_file('openaiapikey2.txt')
-elapikey = open_file('elabapikey.txt')
+api_key = open_file('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')
+elapikey = open_file('9f125c573a2c445f96f42e2690dd0bbd')
 
 conversation1 = []  
 chatbot1 = open_file('chatbot1.txt')
